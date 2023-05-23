@@ -1,0 +1,195 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar {
+  background-color: #fbf3ef;
+  position: fixed;
+  top: 0;
+}
+
+.info {
+  width: 100%;
+  margin-top: 100px;
+}
+
+.nav-items {
+  width: 1500px;
+  border: 2px solid #f5f5f5;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  box-shadow: 0 0 10px #fff;
+}
+
+.nav-items > img {
+  height: 80px;
+  width: 80px;
+}
+
+.nav-list {
+  gap: 40px;
+  list-style-type: none;
+  display: flex;
+}
+
+.list {
+  padding: 10px;
+  font-size: 18px;
+}
+
+.nav-list > .list > a {
+  color: #000;
+  text-decoration: none;
+}
+
+.search-recipe {
+  text-align: center;
+  outline: none;
+  padding: 10px 50px;
+  font-family: Trebuchet MS, Lucida Sans Unicode, Lucida Grande, Lucida Sans, Arial, sans-serif;
+  font-size: 16px;
+}
+
+.search-recipe:focus {
+  background-color: #add8e6;
+  border: #000;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 10px 40px;
+}
+
+.link-style {
+  color: #000;
+  text-decoration: none;
+}
+
+.container {
+  flex-wrap: wrap;
+  margin: 50px 30px;
+  display: flex;
+}
+
+.card {
+  width: 300px;
+  margin: 20px;
+}
+
+.card > img {
+  height: 40%;
+  width: 100%;
+  align-items: center;
+}
+
+.card > h1 {
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.list-info {
+  gap: 50px;
+  margin-left: 10px;
+  padding: 30px 0;
+  list-style-type: none;
+  display: flex;
+}
+
+.btn-section {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.btn-section > a {
+  font-family: Georgia, Times New Roman, Times, serif;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.card-section:hover {
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 0 10px #000;
+}
+
+.shimmer-effect {
+  height: 300px;
+  width: 100%;
+  background-color: #f5f5f5;
+  margin-top: 120px;
+}
+
+.shimmer-cards {
+  height: 400px;
+  width: 300px;
+  background-color: #f5f5f5;
+  margin: 20px;
+}
+
+.header {
+  background-color: #000;
+  margin-top: 110px;
+}
+
+.header-section {
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+  display: flex;
+}
+
+.header-section > .image {
+  height: 250px;
+  width: 250px;
+}
+
+.offer-section {
+  height: 300px;
+  color: #fff;
+  background: #005062;
+  padding: 100px;
+  font-size: 25px;
+}
+
+.restaurant-offers {
+  width: 100%;
+  background-color: #fff;
+  border: 2px solid #000;
+  padding: 50px 100px;
+  font-size: 18px;
+}
+
+.restaurant-offers > div {
+  gap: 50px;
+  display: flex;
+}
+
+.restaurant-options > a {
+  color: gray;
+  text-decoration: none;
+}
+
+.restaurant-options > a:hover {
+  color: #000;
+}
+
+.restaurant-detail {
+  justify-content: center;
+  gap: 200px;
+  display: flex;
+}
+
+.recipe-img {
+  height: 200px;
+  width: 200px;
+}
+
+.info-resmenu {
+  margin-top: 200px;
+}
+
+/*# sourceMappingURL=index.9e4c6fd2.css.map */
